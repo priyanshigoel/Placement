@@ -10,6 +10,7 @@ int main() {
         for(int i=0;i<n;i++){
             nums[i]=nums[i]*nums[i];
         }
-         sort(nums,nums+n);   
-         cout<< nums;
+         sort(nums,nums+n);
+    for(i=0;i<n;i++)
+         cout<< nums[i];
 }
